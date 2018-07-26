@@ -10,7 +10,7 @@ class Character < ActiveRecord::Base
     show = Show.new
     show.name = name
     show.save
-    end
+    
 
   end
 
