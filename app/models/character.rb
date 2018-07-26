@@ -7,7 +7,9 @@ class Character < ActiveRecord::Base
   end
 
   def build_show(name = "Firefly")
-    Show.create(name = name)
+    Show.create do |s|
+      s.name = name
+      
   end
 
 end
