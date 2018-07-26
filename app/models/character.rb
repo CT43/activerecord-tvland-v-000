@@ -8,5 +8,6 @@ class Character < ActiveRecord::Base
 
   def build_show(:name = "Firefly")
     Show.create(:name = :name)
+  end 
 
 end
