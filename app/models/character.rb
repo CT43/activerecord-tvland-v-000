@@ -10,6 +10,7 @@ class Character < ActiveRecord::Base
     Show.create do |s|
       s.name = name
       s.save
+    end
 
   end
 
