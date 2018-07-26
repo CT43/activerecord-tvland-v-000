@@ -8,7 +8,7 @@ class Character < ActiveRecord::Base
 
   def build_show(name = "Firefly")
     show = Show.new
-    show.name = name 
+    show.name = name
     show.save
     end
 
