@@ -3,7 +3,7 @@ class Show < ActiveRecord::Base
   has_many :actors, through: :characters
 
   def build_network(:call_letters = "Fox")
-    Show.create(:name = :name)
+    Network.create(:name = :name)
   end
 
 end
